@@ -2,11 +2,11 @@ import click
 
 import frappe
 
-from india_compliance.audit_trail.setup import setup_fixtures as setup_audit_trail
-from india_compliance.gst_india.constants import BUG_REPORT_URL
-from india_compliance.gst_india.setup import after_install as setup_gst
-from india_compliance.gst_india.setup import create_hrms_custom_fields
-from india_compliance.income_tax_india.setup import after_install as setup_income_tax
+from gst_india.audit_trail.setup import setup_fixtures as setup_audit_trail
+from gst_india.gst_india.constants import BUG_REPORT_URL
+from gst_india.gst_india.setup import after_install as setup_gst
+from gst_india.gst_india.setup import create_hrms_custom_fields
+from gst_india.income_tax_india.setup import after_install as setup_income_tax
 
 # list of filenames (without extension) in sequence of execution
 POST_INSTALL_PATCHES = (
