@@ -20,7 +20,7 @@ POST_INSTALL_PATCHES = (
     "update_state_code_for_daman_and_diu",
     "update_gst_accounts",  # this is an India Compliance patch, but needs priority
     "update_itc_amounts",
-    ## India Compliance
+    ## India Compliance #############################
     "update_state_name_to_puducherry",
     "rename_import_of_capital_goods",
     "update_hsn_code",
