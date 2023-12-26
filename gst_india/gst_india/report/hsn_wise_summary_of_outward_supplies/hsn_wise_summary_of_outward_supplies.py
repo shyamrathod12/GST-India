@@ -10,9 +10,9 @@ from frappe.model.meta import get_field_precision
 from frappe.utils import cstr, flt, getdate
 import erpnext
 
-from india_compliance.gst_india.constants import GST_ACCOUNT_FIELDS
-from india_compliance.gst_india.report.gstr_1.gstr_1 import get_company_gstin_number
-from india_compliance.gst_india.utils import get_gst_accounts_by_type, get_gst_uom
+from gst_india.gst_india.constants import GST_ACCOUNT_FIELDS
+from gst_india.gst_india.report.gstr_1.gstr_1 import get_company_gstin_number
+from gst_india.gst_india.utils import get_gst_accounts_by_type, get_gst_uom
 
 
 def execute(filters=None):

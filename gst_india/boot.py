@@ -3,11 +3,11 @@ import frappe.defaults
 from frappe.utils import cint
 from erpnext.stock.get_item_details import sales_doctypes
 
-from india_compliance.audit_trail.utils import (
+from gst_india.audit_trail.utils import (
     enqueue_disable_audit_trail_notification,
     is_audit_trail_enabled,
 )
-from india_compliance.gst_india.constants import GST_PARTY_TYPES, INDIAN_STATES
+from gst_india.gst_india.constants import GST_PARTY_TYPES, INDIAN_STATES
 
 
 def set_bootinfo(bootinfo):

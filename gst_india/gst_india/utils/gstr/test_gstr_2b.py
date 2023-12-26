@@ -4,9 +4,9 @@ import frappe
 from frappe import parse_json, read_file
 from frappe.tests.utils import FrappeTestCase
 
-from india_compliance.gst_india.utils import get_data_file_path
-from india_compliance.gst_india.utils.gstr import GSTRCategory, save_gstr_2b
-from india_compliance.gst_india.utils.gstr.test_gstr_2a import TestGSTRMixin
+from gst_india.gst_india.utils import get_data_file_path
+from gst_india.gst_india.utils.gstr import GSTRCategory, save_gstr_2b
+from gst_india.gst_india.utils.gstr.test_gstr_2a import TestGSTRMixin
 
 
 class TestGSTR2b(FrappeTestCase, TestGSTRMixin):

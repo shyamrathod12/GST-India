@@ -1,10 +1,10 @@
 import frappe
 from frappe import _
 
-from india_compliance.audit_trail.utils import enable_audit_trail
-from india_compliance.gst_india.overrides.party import validate_pan
-from india_compliance.gst_india.utils import guess_gst_category, is_api_enabled
-from india_compliance.gst_india.utils.gstin_info import get_gstin_info
+from gst_india.audit_trail.utils import enable_audit_trail
+from gst_india.gst_india.overrides.party import validate_pan
+from gst_india.gst_india.utils import guess_gst_category, is_api_enabled
+from gst_india.gst_india.utils.gstin_info import get_gstin_info
 
 # Setup Wizard
 

@@ -2,8 +2,8 @@ from datetime import datetime
 
 import frappe
 
-from india_compliance.gst_india.utils import get_datetime, parse_datetime
-from india_compliance.gst_india.utils.gstr.gstr import GSTR, get_mapped_value
+from gst_india.gst_india.utils import get_datetime, parse_datetime
+from gst_india.gst_india.utils.gstr.gstr import GSTR, get_mapped_value
 
 
 def map_date_format(date_str, source_format, target_format):

@@ -5,7 +5,7 @@ import frappe
 from frappe import _
 from frappe.utils.data import format_datetime, get_timespan_date_range, getdate
 
-from india_compliance.audit_trail.utils import get_audit_trail_doctypes
+from gst_india.audit_trail.utils import get_audit_trail_doctypes
 
 FIELDS = {
     "supplier_name_field_doctypes": [

@@ -5,17 +5,17 @@ from frappe import _
 from frappe.query_builder.terms import Criterion
 from frappe.utils import cint
 
-from india_compliance.gst_india.api_classes.returns import (
+from gst_india.gst_india.api_classes.returns import (
     GSTR2aAPI,
     GSTR2bAPI,
     ReturnsAPI,
 )
-from india_compliance.gst_india.doctype.gstr_import_log.gstr_import_log import (
+from gst_india.gst_india.doctype.gstr_import_log.gstr_import_log import (
     create_import_log,
     toggle_scheduled_jobs,
 )
-from india_compliance.gst_india.utils import get_party_for_gstin
-from india_compliance.gst_india.utils.gstr import gstr_2a, gstr_2b
+from gst_india.gst_india.utils import get_party_for_gstin
+from gst_india.gst_india.utils.gstr import gstr_2a, gstr_2b
 
 
 class ReturnType(Enum):

@@ -6,8 +6,8 @@ from frappe import parse_json, read_file
 from frappe.tests.utils import FrappeTestCase
 from frappe.utils import get_datetime
 
-from india_compliance.gst_india.utils import get_data_file_path
-from india_compliance.gst_india.utils.gstr import (
+from gst_india.gst_india.utils import get_data_file_path
+from gst_india.gst_india.utils.gstr import (
     GSTRCategory,
     ReturnType,
     download_gstr_2a,

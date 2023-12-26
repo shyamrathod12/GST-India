@@ -6,10 +6,10 @@ from unittest import TestCase
 
 import frappe
 
-from india_compliance.gst_india.report.hsn_wise_summary_of_outward_supplies.hsn_wise_summary_of_outward_supplies import (
+from gst_india.gst_india.report.hsn_wise_summary_of_outward_supplies.hsn_wise_summary_of_outward_supplies import (
     execute as run_report,
 )
-from india_compliance.gst_india.utils.tests import append_item, create_sales_invoice
+from gst_india.gst_india.utils.tests import append_item, create_sales_invoice
 
 
 class TestHSNWiseSummaryReport(TestCase):
