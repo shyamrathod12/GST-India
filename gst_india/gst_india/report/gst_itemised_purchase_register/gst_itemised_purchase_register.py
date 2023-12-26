@@ -7,7 +7,7 @@ from erpnext.accounts.report.item_wise_purchase_register.item_wise_purchase_regi
     _execute,
 )
 
-from india_compliance.gst_india.report.gst_purchase_register.gst_purchase_register import (
+from gst_india.gst_india.report.gst_purchase_register.gst_purchase_register import (
     get_additional_table_columns as get_pi_columns,
 )
 

@@ -7,11 +7,11 @@ from erpnext.accounts.general_ledger import make_gl_entries
 from erpnext.accounts.utils import create_payment_ledger_entry
 from erpnext.controllers.accounts_controller import get_advance_payment_entries
 
-from india_compliance.gst_india.overrides.transaction import get_gst_details
-from india_compliance.gst_india.overrides.transaction import (
+from gst_india.gst_india.overrides.transaction import get_gst_details
+from gst_india.gst_india.overrides.transaction import (
     validate_transaction as validate_transaction_for_advance_payment,
 )
-from india_compliance.gst_india.utils import get_all_gst_accounts
+from gst_india.gst_india.utils import get_all_gst_accounts
 
 
 def validate(doc, method=None):

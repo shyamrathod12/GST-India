@@ -1,7 +1,7 @@
 import frappe
 from erpnext.setup.setup_wizard.operations.taxes_setup import get_or_create_tax_group
 
-from india_compliance.gst_india.overrides.company import (
+from gst_india.gst_india.overrides.company import (
     make_default_customs_accounts,
     make_default_gst_expense_accounts,
     make_default_tax_templates,

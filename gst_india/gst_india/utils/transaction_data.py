@@ -4,16 +4,16 @@ import frappe
 from frappe import _
 from frappe.utils import format_date, get_link_to_form, getdate, rounded
 
-from india_compliance.gst_india.constants import (
+from gst_india.gst_india.constants import (
     E_INVOICE_MASTER_CODES_URL,
     GST_TAX_RATES,
     GST_TAX_TYPES,
 )
-from india_compliance.gst_india.constants.e_waybill import (
+from gst_india.gst_india.constants.e_waybill import (
     TRANSPORT_MODES,
     VEHICLE_TYPES,
 )
-from india_compliance.gst_india.utils import (
+from gst_india.gst_india.utils import (
     get_gst_accounts_by_type,
     get_gst_uom,
     get_validated_country_code,

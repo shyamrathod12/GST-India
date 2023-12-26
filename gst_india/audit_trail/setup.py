@@ -1,8 +1,8 @@
 import frappe
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
 
-from india_compliance.audit_trail.constants.custom_fields import CUSTOM_FIELDS
-from india_compliance.audit_trail.utils import (
+from gst_india.audit_trail.constants.custom_fields import CUSTOM_FIELDS
+from gst_india.audit_trail.utils import (
     get_audit_trail_doctypes,
     is_audit_trail_enabled,
 )

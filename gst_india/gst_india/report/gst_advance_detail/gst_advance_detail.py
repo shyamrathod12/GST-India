@@ -10,7 +10,7 @@ from frappe.query_builder.custom import ConstantColumn
 from frappe.query_builder.functions import IfNull, Sum
 from frappe.utils import flt, getdate
 
-from india_compliance.gst_india.utils import get_gst_accounts_by_type
+from gst_india.gst_india.utils import get_gst_accounts_by_type
 
 
 def execute(filters=None):

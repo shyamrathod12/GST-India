@@ -5,7 +5,7 @@ import frappe
 from frappe import _
 from frappe.model.document import Document
 
-from india_compliance.gst_india.utils import (
+from gst_india.gst_india.utils import (
     get_hsn_settings,
     join_list_with_custom_separators,
 )

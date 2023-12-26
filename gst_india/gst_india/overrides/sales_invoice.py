@@ -2,26 +2,26 @@ import frappe
 from frappe import _, bold
 from frappe.utils import flt, fmt_money
 
-from india_compliance.gst_india.constants import GST_INVOICE_NUMBER_FORMAT
-from india_compliance.gst_india.overrides.payment_entry import get_taxes_summary
-from india_compliance.gst_india.overrides.transaction import (
+from gst_india.gst_india.constants import GST_INVOICE_NUMBER_FORMAT
+from gst_india.gst_india.overrides.payment_entry import get_taxes_summary
+from gst_india.gst_india.overrides.transaction import (
     _validate_hsn_codes,
     ignore_gst_validations,
     validate_mandatory_fields,
     validate_transaction,
 )
-from india_compliance.gst_india.utils import (
+from gst_india.gst_india.utils import (
     are_goods_supplied,
     get_validated_country_code,
     is_api_enabled,
     is_foreign_doc,
 )
-from india_compliance.gst_india.utils.e_invoice import (
+from gst_india.gst_india.utils.e_invoice import (
     get_e_invoice_info,
     validate_e_invoice_applicability,
 )
-from india_compliance.gst_india.utils.e_waybill import get_e_waybill_info
-from india_compliance.gst_india.utils.transaction_data import (
+from gst_india.gst_india.utils.e_waybill import get_e_waybill_info
+from gst_india.gst_india.utils.transaction_data import (
     validate_unique_hsn_and_uom,
 )
 

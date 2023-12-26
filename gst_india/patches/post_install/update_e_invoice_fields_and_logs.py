@@ -2,8 +2,8 @@ import json
 
 import frappe
 
-from india_compliance.gst_india.utils import parse_datetime
-from india_compliance.gst_india.utils.custom_fields import delete_custom_fields
+from gst_india.gst_india.utils import parse_datetime
+from gst_india.gst_india.utils.custom_fields import delete_custom_fields
 
 user = None
 

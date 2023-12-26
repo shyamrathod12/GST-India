@@ -8,7 +8,7 @@ from frappe.query_builder.custom import ConstantColumn
 from frappe.query_builder.functions import Extract, Ifnull, IfNull, LiteralValue, Sum
 from frappe.utils import cint, flt, get_first_day, get_last_day
 
-from india_compliance.gst_india.utils import get_gst_accounts_by_type
+from gst_india.gst_india.utils import get_gst_accounts_by_type
 
 
 def execute(filters=None):

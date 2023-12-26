@@ -1,9 +1,9 @@
 import frappe
 from frappe import _
 
-from india_compliance.gst_india.constants import STATE_NUMBERS
-from india_compliance.gst_india.overrides.party import set_gst_category
-from india_compliance.gst_india.utils import (
+from gst_india.gst_india.constants import STATE_NUMBERS
+from gst_india.gst_india.overrides.party import set_gst_category
+from gst_india.gst_india.utils import (
     validate_gst_category,
     validate_gstin,
     validate_pincode,

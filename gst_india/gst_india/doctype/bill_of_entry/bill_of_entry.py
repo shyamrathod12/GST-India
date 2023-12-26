@@ -13,12 +13,12 @@ from erpnext.accounts.general_ledger import make_gl_entries, make_reverse_gl_ent
 from erpnext.controllers.accounts_controller import AccountsController
 from erpnext.controllers.taxes_and_totals import get_round_off_applicable_accounts
 
-from india_compliance.gst_india.overrides.ineligible_itc import (
+from gst_india.gst_india.overrides.ineligible_itc import (
     update_landed_cost_voucher_for_gst_expense,
     update_regional_gl_entries,
     update_valuation_rate,
 )
-from india_compliance.gst_india.utils import get_gst_accounts_by_type
+from gst_india.gst_india.utils import get_gst_accounts_by_type
 
 
 class BillofEntry(Document):

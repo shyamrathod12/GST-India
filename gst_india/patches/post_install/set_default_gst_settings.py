@@ -1,9 +1,9 @@
 import frappe
 
-from india_compliance.gst_india.constants.custom_fields import (
+from gst_india.gst_india.constants.custom_fields import (
     SALES_REVERSE_CHARGE_FIELDS,
 )
-from india_compliance.gst_india.utils.custom_fields import toggle_custom_fields
+from gst_india.gst_india.utils.custom_fields import toggle_custom_fields
 
 # Enable setting only if transaction exists in last 3 years.
 POSTING_DATE_CONDITION = {

@@ -3,7 +3,7 @@ from unittest.mock import Mock, patch
 
 import frappe
 
-from india_compliance.gst_india.utils.gstin_info import get_gstin_info
+from gst_india.gst_india.utils.gstin_info import get_gstin_info
 
 
 class TestGstinInfo(unittest.TestCase):

@@ -4,14 +4,14 @@ import frappe
 from frappe import _
 from frappe.contacts.doctype.address.address import get_address_display
 
-from india_compliance.gst_india.utils import (
+from gst_india.gst_india.utils import (
     guess_gst_category,
     is_autofill_party_info_enabled,
     is_valid_pan,
     validate_gst_category,
     validate_gstin,
 )
-from india_compliance.gst_india.utils.gstin_info import _get_gstin_info
+from gst_india.gst_india.utils.gstin_info import _get_gstin_info
 
 
 def validate_party(doc, method=None):

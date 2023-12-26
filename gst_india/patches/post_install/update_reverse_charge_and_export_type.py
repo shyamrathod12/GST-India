@@ -1,6 +1,6 @@
 import frappe
 
-from india_compliance.gst_india.utils.custom_fields import delete_old_fields
+from gst_india.gst_india.utils.custom_fields import delete_old_fields
 
 DOCTYPES = ("Purchase Invoice", "Sales Invoice")
 

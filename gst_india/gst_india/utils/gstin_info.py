@@ -5,9 +5,9 @@ from string import whitespace
 import frappe
 from frappe import _
 
-from india_compliance.gst_india.api_classes.base import BASE_URL
-from india_compliance.gst_india.api_classes.public import PublicAPI
-from india_compliance.gst_india.utils import titlecase, validate_gstin
+from gst_india.gst_india.api_classes.base import BASE_URL
+from gst_india.gst_india.api_classes.public import PublicAPI
+from gst_india.gst_india.utils import titlecase, validate_gstin
 
 GST_CATEGORIES = {
     "Regular": "Registered Regular",

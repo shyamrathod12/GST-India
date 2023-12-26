@@ -6,7 +6,7 @@ from erpnext.accounts.report.item_wise_sales_register.item_wise_sales_register i
     _execute,
 )
 
-from india_compliance.gst_india.report.gst_sales_register.gst_sales_register import (
+from gst_india.gst_india.report.gst_sales_register.gst_sales_register import (
     get_additional_table_columns as get_si_columns,
 )
 

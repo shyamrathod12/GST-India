@@ -1,7 +1,7 @@
 import frappe
 from frappe import _
 
-from india_compliance.gst_india.api_classes.base import BaseAPI
+from gst_india.gst_india.api_classes.base import BaseAPI
 
 
 class PublicAPI(BaseAPI):

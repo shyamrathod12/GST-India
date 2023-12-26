@@ -6,11 +6,11 @@ from frappe import _
 from frappe.query_builder.functions import Sum
 from frappe.utils import cstr
 
-from india_compliance.gst_india.utils import get_all_gst_accounts, get_gstin_list
-from india_compliance.patches.post_install.update_company_gstin import (
+from gst_india.gst_india.utils import get_all_gst_accounts, get_gstin_list
+from gst_india.patches.post_install.update_company_gstin import (
     execute as _update_company_gstin,
 )
-from india_compliance.patches.post_install.update_company_gstin import (
+from gst_india.patches.post_install.update_company_gstin import (
     verify_gstin_update,
 )
 

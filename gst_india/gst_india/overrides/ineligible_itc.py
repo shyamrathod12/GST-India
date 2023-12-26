@@ -6,10 +6,10 @@ from erpnext.assets.doctype.asset.asset import (
     is_cwip_accounting_enabled,
 )
 
-from india_compliance.gst_india.overrides.transaction import (
+from gst_india.gst_india.overrides.transaction import (
     is_indian_registered_company,
 )
-from india_compliance.gst_india.utils import get_gst_accounts_by_type
+from gst_india.gst_india.utils import get_gst_accounts_by_type
 
 
 class IneligibleITC:

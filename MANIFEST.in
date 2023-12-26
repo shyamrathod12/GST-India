@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include india_compliance *.css
-recursive-include india_compliance *.csv
-recursive-include india_compliance *.html
-recursive-include india_compliance *.ico
-recursive-include india_compliance *.js
-recursive-include india_compliance *.json
-recursive-include india_compliance *.md
-recursive-include india_compliance *.png
-recursive-include india_compliance *.py
-recursive-include india_compliance *.svg
-recursive-include india_compliance *.txt
-recursive-exclude india_compliance *.pyc
+recursive-include gst_india *.css
+recursive-include gst_india *.csv
+recursive-include gst_india *.html
+recursive-include gst_india *.ico
+recursive-include gst_india *.js
+recursive-include gst_india *.json
+recursive-include gst_india *.md
+recursive-include gst_india *.png
+recursive-include gst_india *.py
+recursive-include gst_india *.svg
+recursive-include gst_india *.txt
+recursive-exclude gst_india *.pyc

@@ -2,7 +2,7 @@ import click
 
 import frappe
 
-from india_compliance.gst_india.utils import get_all_gst_accounts, get_gstin_list
+from gst_india.gst_india.utils import get_all_gst_accounts, get_gstin_list
 
 ##############################################################################################################################
 # Steps to manually migrate:

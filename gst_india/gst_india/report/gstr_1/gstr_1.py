@@ -11,7 +11,7 @@ from frappe.query_builder import Criterion
 from frappe.query_builder.functions import Sum
 from frappe.utils import flt, formatdate, getdate
 
-from india_compliance.gst_india.utils import (
+from gst_india.gst_india.utils import (
     get_gst_accounts_by_type,
     is_overseas_transaction,
 )

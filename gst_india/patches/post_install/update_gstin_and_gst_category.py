@@ -2,11 +2,11 @@ import click
 
 import frappe
 
-from india_compliance.gst_india.constants import GST_PARTY_TYPES
-from india_compliance.gst_india.doctype.gst_settings.gst_settings import (
+from gst_india.gst_india.constants import GST_PARTY_TYPES
+from gst_india.gst_india.doctype.gst_settings.gst_settings import (
     enqueue_update_gst_category,
 )
-from india_compliance.gst_india.utils import is_api_enabled
+from gst_india.gst_india.utils import is_api_enabled
 
 
 def execute():

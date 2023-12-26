@@ -1,6 +1,6 @@
 import frappe
 
-from india_compliance.gst_india.doctype.gst_hsn_code.gst_hsn_code import (
+from gst_india.gst_india.doctype.gst_hsn_code.gst_hsn_code import (
     validate_hsn_code as _validate_hsn_code,
 )
 

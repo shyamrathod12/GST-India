@@ -13,10 +13,10 @@ from frappe.utils import (
 )
 from frappe.utils.file_manager import save_file
 
-from india_compliance.gst_india.api_classes.e_invoice import EInvoiceAPI
-from india_compliance.gst_india.api_classes.e_waybill import EWaybillAPI
-from india_compliance.gst_india.constants import STATE_NUMBERS
-from india_compliance.gst_india.constants.e_waybill import (
+from gst_india.gst_india.api_classes.e_invoice import EInvoiceAPI
+from gst_india.gst_india.api_classes.e_waybill import EWaybillAPI
+from gst_india.gst_india.constants import STATE_NUMBERS
+from gst_india.gst_india.constants.e_waybill import (
     ADDRESS_FIELDS,
     CANCEL_REASON_CODES,
     CONSIGNMENT_STATUS,
@@ -27,14 +27,14 @@ from india_compliance.gst_india.constants.e_waybill import (
     TRANSIT_TYPES,
     UPDATE_VEHICLE_REASON_CODES,
 )
-from india_compliance.gst_india.utils import (
+from gst_india.gst_india.utils import (
     is_foreign_doc,
     load_doc,
     parse_datetime,
     send_updated_doc,
     update_onload,
 )
-from india_compliance.gst_india.utils.transaction_data import GSTTransactionData
+from gst_india.gst_india.utils.transaction_data import GSTTransactionData
 
 #######################################################################################
 ### Manual JSON Generation for e-Waybill ##############################################

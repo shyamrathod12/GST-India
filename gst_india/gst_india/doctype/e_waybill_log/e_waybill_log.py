@@ -5,8 +5,8 @@ import frappe
 from frappe import _
 from frappe.model.document import Document
 
-from india_compliance.gst_india.utils import send_updated_doc
-from india_compliance.gst_india.utils.e_waybill import _fetch_e_waybill_data
+from gst_india.gst_india.utils import send_updated_doc
+from gst_india.gst_india.utils.e_waybill import _fetch_e_waybill_data
 
 
 class eWaybillLog(Document):

@@ -13,7 +13,7 @@ def get_audit_trail_doctypes():
 
 def enqueue_disable_audit_trail_notification():
     frappe.enqueue(
-        "india_compliance.audit_trail.utils.disable_audit_trail_notification",
+        "gst_india.audit_trail.utils.disable_audit_trail_notification",
         queue="short",
     )
 

@@ -6,9 +6,9 @@ from frappe import _
 from frappe.model.document import Document
 from frappe.utils import date_diff, format_date, get_datetime
 
-from india_compliance.gst_india.api_classes.e_invoice import EInvoiceAPI
-from india_compliance.gst_india.api_classes.public import PublicAPI
-from india_compliance.gst_india.utils import (
+from gst_india.gst_india.api_classes.e_invoice import EInvoiceAPI
+from gst_india.gst_india.api_classes.public import PublicAPI
+from gst_india.gst_india.utils import (
     is_api_enabled,
     parse_datetime,
     validate_gstin,

@@ -5,12 +5,12 @@ import frappe
 from frappe.tests.utils import FrappeTestCase
 from frappe.utils import today
 
-from india_compliance.gst_india.doctype.bill_of_entry.bill_of_entry import (
+from gst_india.gst_india.doctype.bill_of_entry.bill_of_entry import (
     make_bill_of_entry,
     make_journal_entry_for_payment,
     make_landed_cost_voucher,
 )
-from india_compliance.gst_india.utils.tests import create_purchase_invoice
+from gst_india.gst_india.utils.tests import create_purchase_invoice
 
 
 class TestBillofEntry(FrappeTestCase):

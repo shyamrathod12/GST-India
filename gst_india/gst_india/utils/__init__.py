@@ -24,7 +24,7 @@ from frappe.utils.file_manager import get_file_path
 from erpnext.accounts.party import get_default_contact
 from erpnext.accounts.utils import get_fiscal_year
 
-from india_compliance.gst_india.constants import (
+from gst_india.gst_india.constants import (
     ABBREVIATIONS,
     E_INVOICE_MASTER_CODES_URL,
     GST_ACCOUNT_FIELDS,

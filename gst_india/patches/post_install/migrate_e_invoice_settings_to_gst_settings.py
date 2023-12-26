@@ -4,8 +4,8 @@ import frappe
 from frappe.utils import sbool
 from frappe.utils.password import decrypt
 
-from india_compliance.gst_india.constants.custom_fields import E_INVOICE_FIELDS
-from india_compliance.gst_india.utils.custom_fields import toggle_custom_fields
+from gst_india.gst_india.constants.custom_fields import E_INVOICE_FIELDS
+from gst_india.gst_india.utils.custom_fields import toggle_custom_fields
 
 
 def execute():

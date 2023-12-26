@@ -1,10 +1,10 @@
 import frappe
 from frappe import _
 
-from india_compliance.gst_india.overrides.transaction import (
+from gst_india.gst_india.overrides.transaction import (
     is_indian_registered_company,
 )
-from india_compliance.gst_india.utils import get_all_gst_accounts
+from gst_india.gst_india.utils import get_all_gst_accounts
 
 
 def validate(doc, method=None):

@@ -5,12 +5,12 @@ from frappe.tests.utils import FrappeTestCase
 from frappe.utils import add_to_date, getdate
 from frappe.utils.data import format_date
 
-from india_compliance.gst_india.utils.tests import (
+from gst_india.gst_india.utils.tests import (
     _append_taxes,
     append_item,
     create_sales_invoice,
 )
-from india_compliance.gst_india.utils.transaction_data import (
+from gst_india.gst_india.utils.transaction_data import (
     GSTTransactionData,
     validate_non_gst_items,
 )

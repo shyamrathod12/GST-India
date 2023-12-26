@@ -1,7 +1,7 @@
 import frappe
 from frappe.utils import add_months, getdate
 
-from india_compliance.gst_india.report.e_invoice_summary.e_invoice_summary import (
+from gst_india.gst_india.report.e_invoice_summary.e_invoice_summary import (
     get_data_for_all_companies,
 )
 

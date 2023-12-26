@@ -6,19 +6,19 @@ from frappe import _
 from frappe.model.document import Document
 from frappe.utils import getdate
 
-from india_compliance.gst_india.constants import GST_ACCOUNT_FIELDS, GST_PARTY_TYPES
+from gst_india.gst_india.constants import GST_ACCOUNT_FIELDS, GST_PARTY_TYPES
 from india_compliance.gst_india.constants.custom_fields import (
     E_INVOICE_FIELDS,
     E_WAYBILL_FIELDS,
     SALES_REVERSE_CHARGE_FIELDS,
 )
-from india_compliance.gst_india.page.india_compliance_account import (
+from gst_india.gst_india.page.india_compliance_account import (
     _disable_api_promo,
     post_login,
 )
-from india_compliance.gst_india.utils import can_enable_api, is_api_enabled
-from india_compliance.gst_india.utils.custom_fields import toggle_custom_fields
-from india_compliance.gst_india.utils.gstin_info import get_gstin_info
+from gst_india.gst_india.utils import can_enable_api, is_api_enabled
+from gst_india.gst_india.utils.custom_fields import toggle_custom_fields
+from gst_india.gst_india.utils.gstin_info import get_gstin_info
 
 E_INVOICE_START_DATE = "2021-01-01"
 

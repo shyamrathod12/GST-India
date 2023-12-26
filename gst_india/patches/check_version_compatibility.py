@@ -5,9 +5,9 @@ import frappe
 from frappe.utils.change_log import get_app_branch
 import erpnext
 
-import india_compliance
+import gst_india
 
-IC_VERSION = version.parse(india_compliance.__version__)
+IC_VERSION = version.parse(gst_india.__version__)
 
 VERSIONS_TO_COMPARE = [
     {

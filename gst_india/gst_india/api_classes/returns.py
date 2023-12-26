@@ -8,9 +8,9 @@ import frappe
 from frappe import _
 from frappe.utils import add_to_date, cint, now_datetime
 
-from india_compliance.gst_india.api_classes.base import BaseAPI, get_public_ip
-from india_compliance.gst_india.utils import merge_dicts, tar_gz_bytes_to_data
-from india_compliance.gst_india.utils.cryptography import (
+from gst_india.gst_india.api_classes.base import BaseAPI, get_public_ip
+from gst_india.gst_india.utils import merge_dicts, tar_gz_bytes_to_data
+from gst_india.gst_india.utils.cryptography import (
     aes_decrypt_data,
     aes_encrypt_data,
     encrypt_using_public_key,

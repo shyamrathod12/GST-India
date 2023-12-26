@@ -9,17 +9,17 @@ from erpnext.accounts.doctype.accounting_dimension.accounting_dimension import (
     make_dimension_in_accounting_doctypes,
 )
 
-from india_compliance.gst_india.constants import GST_UOMS
-from india_compliance.gst_india.constants.custom_fields import (
+from gst_india.gst_india.constants import GST_UOMS
+from gst_india.gst_india.constants.custom_fields import (
     CUSTOM_FIELDS,
     E_INVOICE_FIELDS,
     E_WAYBILL_FIELDS,
     HRMS_CUSTOM_FIELDS,
     SALES_REVERSE_CHARGE_FIELDS,
 )
-from india_compliance.gst_india.setup.property_setters import get_property_setters
-from india_compliance.gst_india.utils import get_data_file_path
-from india_compliance.gst_india.utils.custom_fields import toggle_custom_fields
+from gst_india.gst_india.setup.property_setters import get_property_setters
+from gst_india.gst_india.utils import get_data_file_path
+from gst_india.gst_india.utils.custom_fields import toggle_custom_fields
 
 ITEM_VARIANT_FIELDNAMES = frozenset(("gst_hsn_code", "is_nil_exempt", "is_non_gst"))
 

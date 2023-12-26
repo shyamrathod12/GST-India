@@ -4,7 +4,7 @@ from frappe.custom.doctype.customize_form.customize_form import (
     CustomizeForm as _CustomizeForm,
 )
 
-from india_compliance.audit_trail.utils import (
+from gst_india.audit_trail.utils import (
     get_audit_trail_doctypes,
     is_audit_trail_enabled,
 )

@@ -6,14 +6,14 @@ import pyqrcode
 from barcode import Code128
 from barcode.writer import ImageWriter
 
-from india_compliance.gst_india.constants.e_waybill import (
+from gst_india.gst_india.constants.e_waybill import (
     SUB_SUPPLY_TYPES,
     SUPPLY_TYPES,
     TRANSPORT_MODES,
     TRANSPORT_TYPES,
 )
-from india_compliance.gst_india.overrides.transaction import is_inter_state_supply
-from india_compliance.gst_india.utils import as_ist
+from gst_india.gst_india.overrides.transaction import is_inter_state_supply
+from gst_india.gst_india.utils import as_ist
 
 E_INVOICE_ITEM_FIELDS = {
     "SlNo": "Sr.",

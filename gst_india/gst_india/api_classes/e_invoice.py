@@ -3,8 +3,8 @@ import re
 import frappe
 from frappe import _
 
-from india_compliance.gst_india.api_classes.base import BaseAPI
-from india_compliance.gst_india.constants import DISTANCE_REGEX
+from gst_india.gst_india.api_classes.base import BaseAPI
+from gst_india.gst_india.constants import DISTANCE_REGEX
 
 
 class EInvoiceAPI(BaseAPI):

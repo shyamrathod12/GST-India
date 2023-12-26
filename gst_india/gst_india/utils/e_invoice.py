@@ -13,19 +13,19 @@ from frappe.utils import (
     random_string,
 )
 
-from india_compliance.exceptions import GatewayTimeoutError
-from india_compliance.gst_india.api_classes.e_invoice import EInvoiceAPI
-from india_compliance.gst_india.constants import (
+from gst_india.exceptions import GatewayTimeoutError
+from gst_india.gst_india.api_classes.e_invoice import EInvoiceAPI
+from gst_india.gst_india.constants import (
     CURRENCY_CODES,
     EXPORT_TYPES,
     GST_CATEGORIES,
     PORT_CODES,
 )
-from india_compliance.gst_india.constants.e_invoice import (
+from gst_india.gst_india.constants.e_invoice import (
     CANCEL_REASON_CODES,
     ITEM_LIMIT,
 )
-from india_compliance.gst_india.utils import (
+from gst_india.gst_india.utils import (
     are_goods_supplied,
     is_api_enabled,
     is_foreign_doc,
@@ -35,11 +35,11 @@ from india_compliance.gst_india.utils import (
     send_updated_doc,
     update_onload,
 )
-from india_compliance.gst_india.utils.e_waybill import (
+from gst_india.gst_india.utils.e_waybill import (
     _cancel_e_waybill,
     log_and_process_e_waybill_generation,
 )
-from india_compliance.gst_india.utils.transaction_data import (
+from gst_india.gst_india.utils.transaction_data import (
     GSTTransactionData,
     validate_non_gst_items,
 )

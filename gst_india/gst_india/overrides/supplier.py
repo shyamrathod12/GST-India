@@ -2,8 +2,8 @@ import frappe
 from frappe import _, bold
 from frappe.utils import cint
 
-from india_compliance.gst_india.constants import REGISTERED
-from india_compliance.gst_india.utils import validate_gstin
+from gst_india.gst_india.constants import REGISTERED
+from gst_india.gst_india.utils import validate_gstin
 
 
 def validate(doc, method=None):

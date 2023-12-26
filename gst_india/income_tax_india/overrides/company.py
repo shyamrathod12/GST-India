@@ -1,7 +1,7 @@
 import frappe
 from frappe.utils import getdate
 
-from india_compliance.gst_india.overrides.company import create_default_company_account
+from gst_india.gst_india.overrides.company import create_default_company_account
 
 
 def make_company_fixtures(doc, method=None):

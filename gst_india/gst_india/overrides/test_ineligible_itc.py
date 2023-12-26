@@ -9,11 +9,11 @@ from erpnext.stock.doctype.purchase_receipt.purchase_receipt import (
     make_purchase_invoice,
 )
 
-from india_compliance.gst_india.doctype.bill_of_entry.bill_of_entry import (
+from gst_india.gst_india.doctype.bill_of_entry.bill_of_entry import (
     make_bill_of_entry,
     make_landed_cost_voucher,
 )
-from india_compliance.gst_india.utils.tests import create_transaction
+from gst_india.gst_india.utils.tests import create_transaction
 
 SAMPLE_ITEM_LIST = [
     {"item_code": "Test Stock Item", "qty": 5, "rate": 20},

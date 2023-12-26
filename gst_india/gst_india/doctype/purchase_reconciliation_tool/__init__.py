@@ -12,12 +12,12 @@ from frappe.query_builder.custom import ConstantColumn
 from frappe.query_builder.functions import Abs, IfNull, Sum
 from frappe.utils import add_months, format_date, getdate, rounded
 
-from india_compliance.gst_india.constants import GST_TAX_TYPES
-from india_compliance.gst_india.utils import (
+from gst_india.gst_india.constants import GST_TAX_TYPES
+from gst_india.gst_india.utils import (
     get_gst_accounts_by_type,
     get_party_for_gstin,
 )
-from india_compliance.gst_india.utils.gstr import IMPORT_CATEGORY, ReturnType
+from gst_india.gst_india.utils.gstr import IMPORT_CATEGORY, ReturnType
 
 
 class Fields(Enum):

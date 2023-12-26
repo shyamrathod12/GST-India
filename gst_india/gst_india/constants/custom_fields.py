@@ -1,11 +1,11 @@
 import frappe
 
-from india_compliance.gst_india.constants import (
+from gst_india.gst_india.constants import (
     GST_CATEGORIES,
     PORT_CODES,
     STATE_NUMBERS,
 )
-from india_compliance.gst_india.utils import get_place_of_supply_options
+from gst_india.gst_india.utils import get_place_of_supply_options
 
 state_options = "\n" + "\n".join(STATE_NUMBERS)
 gst_category_options = "\n".join(GST_CATEGORIES)

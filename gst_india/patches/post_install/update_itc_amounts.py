@@ -1,6 +1,6 @@
 import frappe
 
-from india_compliance.gst_india.utils import GST_ACCOUNT_FIELDS
+from gst_india.gst_india.utils import GST_ACCOUNT_FIELDS
 
 
 def execute():

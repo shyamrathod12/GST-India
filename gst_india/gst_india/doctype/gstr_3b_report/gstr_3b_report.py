@@ -12,11 +12,11 @@ from frappe.query_builder import DatePart
 from frappe.query_builder.functions import Extract, Sum
 from frappe.utils import cstr, flt, get_date_str, get_first_day, get_last_day
 
-from india_compliance.gst_india.constants import INVOICE_DOCTYPES
-from india_compliance.gst_india.report.gstr_3b_details.gstr_3b_details import (
+from gst_india.gst_india.constants import INVOICE_DOCTYPES
+from gst_india.gst_india.report.gstr_3b_details.gstr_3b_details import (
     IneligibleITC,
 )
-from india_compliance.gst_india.utils import (
+from gst_india.gst_india.utils import (
     get_gst_accounts_by_type,
     is_overseas_transaction,
 )

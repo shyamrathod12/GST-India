@@ -9,17 +9,17 @@ from frappe.model.document import Document
 from frappe.query_builder.functions import IfNull
 from frappe.utils.response import json_handler
 
-from india_compliance.gst_india.constants import ORIGINAL_VS_AMENDED
-from india_compliance.gst_india.doctype.purchase_reconciliation_tool import (
+from gst_india.gst_india.constants import ORIGINAL_VS_AMENDED
+from gst_india.gst_india.doctype.purchase_reconciliation_tool import (
     BaseUtil,
     BillOfEntry,
     PurchaseInvoice,
     ReconciledData,
     Reconciler,
 )
-from india_compliance.gst_india.utils import get_json_from_file, get_timespan_date_range
-from india_compliance.gst_india.utils.exporter import ExcelExporter
-from india_compliance.gst_india.utils.gstr import (
+from gst_india.gst_india.utils import get_json_from_file, get_timespan_date_range
+from gst_india.gst_india.utils.exporter import ExcelExporter
+from gst_india.gst_india.utils.gstr import (
     IMPORT_CATEGORY,
     GSTRCategory,
     ReturnType,

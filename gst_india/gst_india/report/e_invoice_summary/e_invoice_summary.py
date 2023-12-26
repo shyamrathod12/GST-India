@@ -9,7 +9,7 @@ from frappe.query_builder import Case
 from frappe.query_builder.functions import Coalesce, IfNull
 from frappe.utils.data import get_datetime
 
-from india_compliance.gst_india.utils.e_invoice import get_e_invoice_applicability_date
+from gst_india.gst_india.utils.e_invoice import get_e_invoice_applicability_date
 
 
 def execute(filters=None):

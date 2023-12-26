@@ -7,7 +7,7 @@ import unittest
 import frappe
 from frappe.utils import getdate
 
-from india_compliance.gst_india.utils.tests import (
+from gst_india.gst_india.utils.tests import (
     create_purchase_invoice,
     create_sales_invoice,
 )

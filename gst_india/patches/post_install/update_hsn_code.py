@@ -1,6 +1,6 @@
 import frappe
 
-from india_compliance.gst_india.setup import _create_hsn_codes
+from gst_india.gst_india.setup import _create_hsn_codes
 
 DOCTYPE = "GST HSN Code"
 INCORRECT_HSN_CODE_LENGTHS = frozenset((3, 5, 7))

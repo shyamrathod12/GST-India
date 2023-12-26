@@ -1,7 +1,7 @@
 import frappe
 from frappe import _
 
-from india_compliance.audit_trail.setup import create_property_setters_for_versioning
+from gst_india.audit_trail.setup import create_property_setters_for_versioning
 
 
 def validate(doc, method=None):

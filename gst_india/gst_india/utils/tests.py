@@ -1,7 +1,7 @@
 import frappe
 from frappe.utils import getdate
 
-from india_compliance.gst_india.constants import SALES_DOCTYPES
+from gst_india.gst_india.constants import SALES_DOCTYPES
 
 
 def create_sales_invoice(**data):
