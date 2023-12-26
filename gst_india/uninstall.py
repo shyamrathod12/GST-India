@@ -1,9 +1,9 @@
 import click
 
-from india_compliance.gst_india.constants import BUG_REPORT_URL
-from india_compliance.gst_india.uninstall import before_uninstall as remove_gst
-from india_compliance.gst_india.uninstall import delete_hrms_custom_fields
-from india_compliance.income_tax_india.uninstall import (
+from gst_india.gst_india.constants import BUG_REPORT_URL
+from gst_india.gst_india.uninstall import before_uninstall as remove_gst
+from gst_india.gst_india.uninstall import delete_hrms_custom_fields
+from gst_india.income_tax_india.uninstall import (
     before_uninstall as remove_income_tax,
 )
 
@@ -19,7 +19,7 @@ def before_uninstall():
     except Exception as e:
         click.secho(
             (
-                "Removing customizations for India Compliance failed due to an error."
+                "Removing customizations for GST India failed due to an error."
                 " Please try again or"
                 f" report the issue on {BUG_REPORT_URL} if not resolved."
             ),
